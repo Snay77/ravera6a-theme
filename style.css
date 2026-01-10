@@ -1,0 +1,33 @@
+/* 
+Theme Name: Ravera
+Theme URI: http://locadeglhost:8000/
+Author: Ethan and Lou-Anne
+Author URI: http://localhost:8000/
+Description: Theme principal pour Ravera
+Version: 1.0
+Requires at least: 6.7
+Tested up to: 6.9
+Requires PHP: 8.2
+*/
+
+:root {
+    color-scheme: light dark;
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--couleur-gris);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--couleur-rouge);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--couleur-blanc);
+}

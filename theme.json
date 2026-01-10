@@ -1,0 +1,288 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "useRootPaddingAwareAlignments": true,
+        "layout": {
+            "contentSize": "1140px",
+            "wideSize": "1400px"
+        },
+        "color": {
+            "link": true,
+            "text": true,
+            "background": true,
+            "caption": true,
+            "button": true,
+            "heading": true,
+            
+            "palette": [
+                {
+                    "name": "Blanc",
+                    "slug": "white",
+                    "color": "#FFFAF2"
+                },
+                {
+                    "name": "Gris",
+                    "slug": "grey",
+                    "color": "#3D3D3D"
+                },
+                {
+                    "name": "Noir",
+                    "slug": "black",
+                    "color": "#1A1A1A"
+                },
+                {
+                    "name": "Rouge",
+                    "slug": "primary",
+                    "color": "#E5181B"
+                },
+                {
+                    "name": "Rouge foncé",
+                    "slug": "primary-accent",
+                    "color": "#4A0605"
+                },
+                {
+                    "name": "Bleu",
+                    "slug": "secondary",
+                    "color": "#1D83BA"
+                }
+            ],
+            "gradients": [],
+            "duotone": [],
+
+            "custom": false,
+            "customDuotone": false,
+            "customGradient": false,
+            "defaultPalette": false,
+            "defaultGradients": false,
+            "defaultDuotone": false
+        },
+        "spacing": {
+            "blockGap": true,
+            "customSpacingSize": false,
+            "defaultSpacingSizes": false,
+            "margin": true,
+            "padding": true,
+            "spacingSizes": [
+                {
+                    "name": "Très petit",
+                    "slug": "xs",
+                    "size": "8px"
+                },
+                {
+                    "name": "Petit",
+                    "slug": "s",
+                    "size": "16px"
+                },
+                {
+                    "name": "Moyen",
+                    "slug": "m",
+                    "size": "24px"
+                },
+                {
+                    "name": "Grand",
+                    "slug": "l",
+                    "size": "32px"
+                },
+                {
+                    "name": "Très grand",
+                    "slug": "xl",
+                    "size": "64px"
+                }
+            ]
+        },
+        "shadow": {
+            "defaultPresets": false,
+            "presets": [
+                {
+                    "name": "Moyen",
+                    "slug": "medium",
+                    "shadow": "4px 4px 60px 0 rgba(0, 0, 0, 0.5)"
+                }
+            ]
+        },
+        "typography": {
+            "customFontSize": false,
+            "defaultFontSizes": false,
+            "dropCap": false,
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": false,
+            "lineHeight": false,
+            "textAlign": true,
+            "textColumns": false,
+            "textDecoration": true,
+            "textTransform": true,
+            "writingMode": false,
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Inter', sans-serif",
+                    "name": "Inter",
+                    "slug": "primary",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+							"fontDisplay": "swap",
+                            "fontWeight": "300 900",
+                            "src": [
+                                "file:./assets/fonts/inter-variable.woff2"
+							]
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "name": "Très petit",
+                    "slug": "xs",
+                    "size": "14px"
+                },
+                {
+                    "name": "Petit",
+                    "slug": "s",
+                    "size": "16px"
+                },
+                {
+                    "name": "Moyen",
+                    "slug": "m",
+                    "size": "18px"
+                },
+                {
+                    "name": "Grand moyen",
+                    "slug": "ml",
+                    "size": "24px"
+                },
+                {
+                    "name": "Grand",
+                    "slug": "l",
+                    "size": "32px"
+                },
+                {
+                    "name": "Très grand",
+                    "slug": "xl",
+                    "size": "64px"
+                }
+            ]           
+        },
+        "custom": {
+            "color": {
+                "primary-hover": "#B91316"
+            },
+            "fontWeight": {
+                "regular": 400,
+                "bold": 700,
+                "black": 900
+            },
+            "lineHeight": {
+                "s": "1.2",
+                "m": "1.5",
+                "l": "1.8"
+            },
+            "radius": {
+                "s": "8px",
+                "m": "16px",
+                "full": "500px"
+            }
+        },
+        "blocks": {
+            "core/paragraph": {
+                "color": {
+                    "background": false
+                }
+            }
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var:preset|color|black",
+            "background": "var:preset|color|white"
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|primary",
+            "fontSize": "var:preset|font-size|s",
+            "fontWeight": "var:custom|font-weight|regular",
+            "lineHeight": "var:custom|line-height|s"
+        },
+        "spacing": {
+            "blockGap": "var:preset|spacing|s"
+        },
+        "elements": {
+            "heading": {
+                "color": {
+                    "text": "var:preset|color|primary-accent"
+                },
+                "typography": {
+                    "fontWeight": "var:custom|font-weight|bold"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontSize": "var:preset|font-size|xl",
+                    "lineHeight": "var:custom|line-height|l"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var:preset|font-size|l",
+                    "lineHeight": "var:custom|line-height|l"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var:preset|font-size|ml",
+                    "lineHeight": "var:custom|line-height|m"
+                }
+            },
+            "button": {
+                "color": {
+                    "background": "var:preset|color|primary",
+                    "text": "var:preset|color|white"
+                },
+                "border": {
+                    "radius": "var:custom|radius|s"
+                },
+                "spacing": {
+                    "padding": {
+                        "top": "var:preset|spacing|xs",
+                        "right": "var:preset|spacing|s",
+                        "bottom": "var:preset|spacing|xs",
+                        "left": "var:preset|spacing|s"
+                    }
+                },
+                "typography": {
+                    "fontSize": "var:preset|font-size|s",
+                    "fontWeight": "var:custom|font-weight|regular"
+                },
+                ":hover": {
+                    "color": {
+                        "background": "var:custom|color|primary-hover"
+                    }
+                },
+                "css": "transition: all .3s ease-in"
+            },
+            "link": {
+                "color": {
+                    "text": "var:preset|color|secondary"
+                }
+            },
+            "caption": {
+                "typography": {
+                    "fontSize": "var:preset|font-size|xs"
+                },
+                "color": {
+                    "text": "var:preset|color|grey"
+                }
+            }
+        },
+        "blocks": {
+            "core/image": {
+                "border": {
+                    "radius": "var:custom|radius|s"
+                }
+            }
+        }
+    }
+}
