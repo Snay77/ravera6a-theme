@@ -292,6 +292,18 @@
                     "radius": "var:custom|radius|s"
                 }
             }
-        }
+        },
+        "templateParts": [
+            {
+                "area": "header",
+                "name": "header",
+                "title": "En-tête"
+            },
+            {
+                "area": "footer",
+                "name": "footer",
+                "title": "Pied de page"
+            }
+        ]
     }
 }
