@@ -175,7 +175,8 @@
         },
         "custom": {
             "color": {
-                "primary-hover": "#B91316"
+                "primary-hover": "#B91316",
+                "background": "#FFFAF2"
             },
             "fontWeight": {
                 "regular": 400,
@@ -204,7 +205,7 @@
     "styles": {
         "color": {
             "text": "var:preset|color|black",
-            "background": "var:preset|color|white"
+            "background": "var:custom|color|background"
         },
         "typography": {
             "fontFamily": "var:preset|font-family|primary",
@@ -304,6 +305,13 @@
                 "name": "footer",
                 "title": "Pied de page"
             }
-        ]
+        ],
+        "customTemplates": [
+        {
+            "name": "page-full",
+            "title": "Page pleine largeur",
+            "postTypes": [ "page" ]
+        }
+    ]
     }
 }
