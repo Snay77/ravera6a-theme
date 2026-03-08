@@ -213,7 +213,7 @@
             "lineHeight": "var:custom|line-height|s"
         },
         "spacing": {
-            "blockGap": "var:preset|spacing|s"
+            "blockGap": "0"
         },
         "elements": {
             "heading": {
@@ -255,14 +255,14 @@
                 },
                 "spacing": {
                     "padding": {
-                        "top": "var:preset|spacing|xs",
-                        "right": "var:preset|spacing|s",
-                        "bottom": "var:preset|spacing|xs",
-                        "left": "var:preset|spacing|s"
+                        "top": "var:preset|spacing|s",
+                        "right": "var:preset|spacing|m",
+                        "bottom": "var:preset|spacing|s",
+                        "left": "var:preset|spacing|m"
                     }
                 },
                 "typography": {
-                    "fontSize": "var:preset|font-size|s",
+                    "fontSize": "var:preset|font-size|m",
                     "fontWeight": "var:custom|font-weight|regular"
                 },
                 ":hover": {
