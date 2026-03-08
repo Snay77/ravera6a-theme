@@ -304,6 +304,13 @@
                 "name": "footer",
                 "title": "Pied de page"
             }
-        ]
+        ],
+        "customTemplates": [
+        {
+            "name": "page-full",
+            "title": "Page pleine largeur",
+            "postTypes": [ "page" ]
+        }
+    ]
     }
 }
