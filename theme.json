@@ -45,6 +45,16 @@
                     "name": "Bleu",
                     "slug": "secondary",
                     "color": "#1D83BA"
+                },
+                {
+                    "name": "Fond input formulaire",
+                    "slug": "form-background-input",
+                    "color": "#EBE7E2"
+                },
+                {
+                    "name": "Bordure input formulaire",
+                    "slug": "form-border-input",
+                    "color": "#CFCFCF"
                 }
             ],
             "gradients": [],
@@ -307,11 +317,13 @@
             }
         ],
         "customTemplates": [
-        {
-            "name": "page-full",
-            "title": "Page pleine largeur",
-            "postTypes": [ "page" ]
-        }
-    ]
+            {
+                "name": "page-full",
+                "title": "Page pleine largeur",
+                "postTypes": [
+                    "page"
+                ]
+            }
+        ]
     }
 }
