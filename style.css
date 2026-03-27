@@ -25,7 +25,7 @@ Requires PHP: 8.1
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--wp--preset--color--red);
+    background-color: var(--wp--preset--color--primary);
 }
 
 ::-webkit-scrollbar-track {
