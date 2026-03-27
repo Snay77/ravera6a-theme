@@ -241,7 +241,7 @@
                 },
                 "typography": {
                     "fontSize": "var:preset|font-size|xl",
-                    "lineHeight": "var:custom|line-height|l"
+                    "lineHeight": "var:custom|line-height|s"
                 }
             },
             "h2": {
