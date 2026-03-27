@@ -21,13 +21,13 @@ Requires PHP: 8.1
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--couleur-gris);
+    background-color: var(--wp--preset--color--grey);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--couleur-rouge);
+    background-color: var(--wp--preset--color--red);
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--couleur-blanc);
+    background-color: var(--wp--preset--color--primary);
 }

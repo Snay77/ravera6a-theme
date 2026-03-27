@@ -237,7 +237,7 @@
             },
             "h1": {
                 "color": {
-                    "text": "var:preset|color|white"
+                    "text": "var:preset|color|primary-accent"
                 },
                 "typography": {
                     "fontSize": "var:preset|font-size|xl",
