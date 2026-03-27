@@ -29,5 +29,5 @@ Requires PHP: 8.1
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--wp--preset--color--primary);
+    background-color: var(--wp--preset--color--white);
 }
